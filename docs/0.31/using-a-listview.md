@@ -25,7 +25,7 @@ class ListViewBasics extends Component {
   }
   render() {
     return (
-      <View style={{paddingTop: 22}}>
+      <View style={{paddingTop: 22, flex: 1}}>
         <ListView
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Text>{rowData}</Text>}
